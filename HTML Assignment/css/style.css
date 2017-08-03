@@ -1,0 +1,133 @@
+.nav {
+
+	font-family: Comic Sans MS, cursive, sans-serif;
+	background-image: url(../images/logo.svg);
+	background-size: 50px 50px;
+    border-bottom: 1px solid grey;
+	width: auto;
+	height:50px;
+	background-color: #DED2D2;
+	background-position: left;
+	background-repeat: no-repeat;
+	margin: -8px -8px 0px;
+}
+
+.nav .right {
+
+	float: left;
+	color: #321818;
+    text-align: center;
+    padding: 14px 55px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a {
+
+	float: right;
+	color: #321818;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.hero {
+
+    font-family: Comic Sans MS, cursive, sans-serif;
+	width: auto;
+	height: 700px;
+	background-image: url(../images/hero.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 2px -8px 0px;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.col {
+	margin: 1px -8px 0px;
+	width: auto;
+	height: 400px;
+}
+
+.footer {
+	background-color: #7d8183;
+	width: auto;
+	height: 350px;
+	margin: 1px -8px 0px;
+}
+
+.row {
+	width: 100%;
+	padding-left: 150px;
+}
+
+.col1 {
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 15px;
+	width: 30%;
+	float: left;
+	padding-top: 65px;
+}
+
+.col2 {
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 15px;
+	width: 30%;
+	float: left;
+	padding-top: 65px;
+}
+
+.col3 {
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 15px;
+	width: 30%;
+	float: left;
+	padding-top: 65px;
+}
+
+.col1 h3 {
+	color: #fab57c;
+}
+
+.col2 h3 {
+	color: #fab57c;
+}
+
+.col3 h3 {
+	color: #fab57c;
+}
+
+.col1 p {
+	font-weight: bold;
+}
+
+.col2 p {
+	font-weight: bold;
+}
+
+.col3 p {
+	font-weight: bold;
+}
+
+.col3 img {
+	height: 40px;
+	width: 40px;
+}
+
+td {
+	width: 33%;
+	height: 100%;
+	background-color: #DEDEDE;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	text-align: center;
+
+}
+
+img {
+	width: 480px;
+	height: 250px;
+}
