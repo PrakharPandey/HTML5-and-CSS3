@@ -1,12 +1,17 @@
+body {
+	background-color: #efc;
+
+}
+
 .nav {
 
 	font-family: Comic Sans MS, cursive, sans-serif;
 	background-image: url(../images/logo.svg);
 	background-size: 50px 50px;
-    border-bottom: 1px solid grey;
+    border-bottom: 3px solid #8b0;
 	width: auto;
 	height:50px;
-	background-color: #DED2D2;
+	background-color: #122;
 	background-position: left;
 	background-repeat: no-repeat;
 	margin: -8px -8px 0px;
@@ -15,7 +20,7 @@
 .nav .right {
 
 	float: left;
-	color: #321818;
+	color: #fff;
     text-align: center;
     padding: 14px 55px;
     text-decoration: none;
@@ -25,7 +30,7 @@
 .nav a {
 
 	float: right;
-	color: #321818;
+	color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -40,27 +45,57 @@
 	background-image: url(../images/hero.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin: 2px -8px 0px;
+	margin: 0px -8px 0px;
 	text-align: center;
 	opacity: 0.8;
+
+}
+
+.col22 img {
+	 width: 95%;
+	 height: 1%;
+	 border: 3px solid #333;
+	 border-radius: 10px;
+}
+
+.hero1 {
+
+	width: auto;
+	padding: 100px 100px;
+	background-color: lightgrey;
+	border-bottom: 3px solid #fff;
+	margin: 0px -8px 0px; 
+	height: 300px;
+}
+
+.hero2 {
+
+	width: auto;
+	padding: 100px 100px;
+	background-color: lightgrey;
+	border-bottom: 3px solid #fff;
+	margin: 0px -8px 0px; 
+	height: 450px;
 }
 
 .col {
 	margin: 1px -8px 0px;
 	width: auto;
-	height: 400px;
+	height: 420px;
+	overflow: hidden;
 }
 
 .footer {
-	background-color: #7d8183;
+	background-color: #122;
 	width: auto;
 	height: 350px;
 	margin: 1px -8px 0px;
 }
 
 .row {
-	width: 100%;
+	width: auto;
 	padding-left: 150px;
+	border-bottom: 3px solid #8b0;
 }
 
 .col1 {
@@ -69,6 +104,17 @@
 	width: 30%;
 	float: left;
 	padding-top: 65px;
+}
+
+.col11 {
+	width: 50%;
+	float: left;
+}
+
+.col22 {
+	width: 50%;
+	float: left;
+	font-size: 17px;
 }
 
 .col2 {
@@ -88,32 +134,47 @@
 }
 
 .col1 h3 {
-	color: #fab57c;
+	color: #0bc;
 }
 
 .col2 h3 {
-	color: #fab57c;
+	color: #0bc;
 }
 
 .col3 h3 {
-	color: #fab57c;
+	color: #0bc;
 }
 
 .col1 p {
-	font-weight: bold;
+	
+	color: #fff;
 }
 
 .col2 p {
-	font-weight: bold;
+	
+	color: #fff;
 }
 
 .col3 p {
-	font-weight: bold;
+	
+	color: #fff;
 }
 
 .col3 img {
-	height: 40px;
-	width: 40px;
+	height: 8%;
+	width: 8%;
+}
+
+.hero input {
+	padding: 10px 20px;
+	border: 2px solid #333;
+	border-radius: 8px;
+}
+
+.col3 input, .col3 button{
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 2px solid #122;
 }
 
 td {
@@ -128,6 +189,15 @@ td {
 }
 
 img {
-	width: 480px;
+	width: 95%;
 	height: 250px;
+}
+
+iframe {
+	border: 3px solid #333;
+}
+
+li {
+	font-size: 17px;
+
 }
