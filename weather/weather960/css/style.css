@@ -130,25 +130,13 @@ li {
     padding-top: 65px;
 }
 
-.col11 {
-    width: 50%;
-    float: left;
-}
-
+.col11,
 .col22 {
     width: 50%;
     float: left;
-    font-size: 17px;
 }
 
-.col2 {
-    font-family: Comic Sans MS, cursive, sans-serif;
-    font-size: 15px;
-    width: 30%;
-    float: left;
-    padding-top: 65px;
-}
-
+.col2,
 .col3 {
     font-family: Comic Sans MS, cursive, sans-serif;
     font-size: 15px;
@@ -157,28 +145,14 @@ li {
     padding-top: 65px;
 }
 
-.col1 h3 {
-    color: #0bc;
-}
-
-.col2 h3 {
-    color: #0bc;
-}
-
+.col1 h3,
+.col2 h3,
 .col3 h3 {
     color: #0bc;
 }
 
-.col1 p {
-
-    color: #fff;
-}
-
-.col2 p {
-
-    color: #fff;
-}
-
+.col1 p,
+.col2 p, 
 .col3 p {
 
     color: #fff;
